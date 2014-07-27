@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="refresh">icons/glyphicons_081_refresh.png</file>
+        <file alias="add_folder">icons/glyphicons_145_folder_plus.png</file>
+        <file alias="remove_folder">icons/glyphicons_146_folder_minus.png</file>
+        <file alias="main_icon">icons/glyphicons_440_folder_closed.png</file>
+        <file alias="cogwheels">icons/glyphicons_137_cogwheels.png</file>
+    </qresource>
+</RCC>

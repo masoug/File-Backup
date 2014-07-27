@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QDir>
+#include <QFileSystemModel>
+#include <QFileDialog>
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +20,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void displayFolderSelection(void);
 };
 
 #endif // MAINWINDOW_H
