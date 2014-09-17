@@ -6,8 +6,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    
-    // lol a comment
 
     QFileSystemModel *model = new QFileSystemModel();
     model->setRootPath(QDir::currentPath());
